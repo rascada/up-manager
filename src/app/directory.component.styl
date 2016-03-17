@@ -1,0 +1,22 @@
+@import '~flexstyl/flex';
+
+:host
+  flex styl
+  flex center
+
+  width 3em
+  height 3em
+  margin .5em
+  color #eee
+  cursor pointer
+  background teal
+  font-weight bold
+  border-radius .2em
+  box-shadow 0 .1em .2em rgba(#000, .3)
+
+  transition .3s
+  &:hover
+    background teal + 10%
+
+  &:active
+    background teal - 10%
